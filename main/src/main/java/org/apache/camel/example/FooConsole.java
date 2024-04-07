@@ -6,7 +6,7 @@ import org.apache.camel.util.json.JsonObject;
 
 import java.util.Map;
 
-@DevConsole("foo")
+@DevConsole(name = "foo_name", displayName = "foo", description = "foo console")
 public class FooConsole extends AbstractDevConsole {
 
     public FooConsole() {
